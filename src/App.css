@@ -256,12 +256,10 @@ footer .input-group-text {
 .categories>div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
-
 /* categories section end here*/
 /* Home page End*/
 
 /* blog part */
-
 .blog-card {
   background-color: white;
   border-radius: 10px;
@@ -299,6 +297,23 @@ footer .input-group-text {
   background-color: white;
   border-radius: 10px;
   color: var(--color-777777);
+}
+
+.single-blog-card a{
+  font-size: 18px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
+.single-blog-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.single-blog-card p {
+  color: var(--color-777777);
+  font-size: 14px;
 }
 
 /* blog part ends here */
