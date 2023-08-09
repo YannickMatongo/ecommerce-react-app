@@ -13,7 +13,7 @@ const ProductCard = (props) => {
           location.pathname == "/store" ? `gr-${grid}` : "col-3"
         } `}
       >
-        <Link className="product-card position-relative">
+        <Link to=":id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="" />
@@ -37,7 +37,7 @@ const ProductCard = (props) => {
               // edit={false}
               activeColor="#ffd700"
             />
-            <p className={`description ${grid ===  12 ? "d-block" : "d-none"}`}>
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Quibusdam, animi suscipit impedit, ipsa cum, est tempora esse sunt
               itaque cupiditate quas temporibus aliquam delectus. Delectus ullam
@@ -92,7 +92,7 @@ const ProductCard = (props) => {
               // edit={false}
               activeColor="#ffd700"
             />
-            <p className={`description ${grid ===  12 ? "d-block" : "d-none"}`}>
+            <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Quibusdam, animi suscipit impedit, ipsa cum, est tempora esse sunt
               itaque cupiditate quas temporibus aliquam delectus. Delectus ullam
