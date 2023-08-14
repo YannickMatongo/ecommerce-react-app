@@ -160,7 +160,6 @@ const SingleProduct = () => {
                     </div>
                     <div>
                       <a href="">
-                        {" "}
                         <AiOutlineHeart className="fs-5 me-2" /> Add to Wishlist
                       </a>
                     </div>

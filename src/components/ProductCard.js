@@ -19,7 +19,7 @@ const ProductCard = (props) => {
     <>
       <div
         className={` ${
-          location.pathname == "/store" ? `gr-${grid}` : "col-3"
+          location.pathname == "/product" ? `gr-${grid}` : "col-3"
         } `}
       >
         <Link to=":id" className="product-card position-relative">
@@ -54,17 +54,17 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={prodcompare} alt="productcompare" />
               </button>
             </div>
             <div className="d-flex flex-column">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={view} alt="view" />
               </button>
             </div>
             <div className="d-flex flex-column">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={addcart} alt="add" />
               </button>
             </div>
@@ -109,17 +109,17 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={prodcompare} alt="productcompare" />
               </button>
             </div>
             <div className="d-flex flex-column">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={view} alt="view" />
               </button>
             </div>
             <div className="d-flex flex-column">
-              <button>
+              <button className="border-0 bg-transparent">
                 <img src={addcart} alt="add" />
               </button>
             </div>
